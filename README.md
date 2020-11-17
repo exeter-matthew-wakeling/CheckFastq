@@ -9,7 +9,7 @@ CheckFastq2.java assumes that the provided fastq files are paired, which is the 
 1. The read headers in the paired fastq files match for every read.
 2. The third line of each read record contains just a "+" character.
 3. The base quality line is the same length as the base sequence line.
-4. The fastq file is truncated half-way through a read record.
+4. The fastq file isn't truncated half-way through a read record.
 5. The paired fastq files contain the same number of reads.
 
 The software is written in Java, and it needs to be compiled before it is run. To compile, ensure a Java Development Kit (JDK) is installed, then download the CheckFastq.java and CheckFastq2.java files. Open a terminal in the directory with those files, and run:
